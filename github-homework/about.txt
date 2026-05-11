@@ -1,0 +1,4 @@
+my name is deema
+my fild is IT
+my favorite programming language is python, css,Html,sql
+I want to learn git and github to manage code and project
