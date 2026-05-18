@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="about.html">About Me</a> |
+        <a href="table.html">Schedule</a> |
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <h1>Contact Us</h1>
+
+    <form>
+        <label>Name:</label><br>
+        <input type="text" name="name" required><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email"><br><br>
+
+        <label>Password:</label><br>
+        <input type="password" name="password"><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female<br><br>
+
+        <label>Skills:</label><br>
+        <input type="checkbox" name="skills" value="html"> HTML
+        <input type="checkbox" name="skills" value="css"> CSS<br><br>
+
+        <label>Country:</label><br>
+        <select name="country">
+            <option value="saudi">Saudi Arabia</option>
+            <option value="Qatar">Qatar</option>
+        </select><br><br>
+
+        <label>City (choose or type):</label><br>
+        <input list="cities" name="city">
+        <datalist id="cities">
+            <option value="Riyadh">
+            <option value="Dammam">
+            <option value="Cairo">
+        </datalist><br><br>
+
+        <label>Message:</label><br>
+        <textarea name="message" rows="4" cols="30"></textarea><br><br>
+
+        <button type="submit">Send</button>
+        <button type="reset">Reset</button>
+    </form>
+
+</body>
+</html>
